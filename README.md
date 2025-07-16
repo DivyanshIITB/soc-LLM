@@ -12,12 +12,19 @@
 - Performed basic sentiment analysis to classify text as positive or negative.
 - Compared NLP libraries: NLTK (granular and academic) vs spaCy (production-ready and efficient).
 
-## Week 3: Neural Networks & Optimizers
+## Week 3-4: Neural Networks & Optimizers
 - Learned the structure and working of artificial neural networks (ANNs).
 - Built and understood feedforward neural networks with activation functions like ReLU and Sigmoid.
 - Studied Recurrent Neural Networks (RNNs) for sequential data processing.
 - Explored optimizers such as SGD, Adam, and RMSprop for efficient training.
 - Understood concepts of overfitting, regularization (like Dropout), and early stopping.
+
+## Week 5-6: LLMs, RAG, LangChain
+- Gained a solid understanding of Transformer architectures and Large Language Models (LLMs).
+- Explored decoding strategies and fine-tuning techniques for LLMs using Hugging Face.
+- Implemented Retrieval-Augmented Generation (RAG) using LangChain and vector databases.
+- Built a question-answering chatbot powered by LLMs and PDF-based context retrieval.
+- Designed a local user interface using Gradio for seamless interaction with the model.
 
 ---
 
@@ -30,3 +37,12 @@ To build a digit classification model using PyTorch that predicts handwritten di
 - **Data Loading:** Used `torchvision.datasets.MNIST` and `DataLoader` to prepare training and testing sets.
 - **Model Definition:** Implemented a simple feedforward neural network with multiple linear layers and ReLU activations.
 - **Training:** Trained using `CrossEntropyLoss` and the `Adam` optimize
+
+## Assignment 2: Sentiment Analysis with LSTM using PyTorch 
+- Gained hands-on experience with text preprocessing techniques such as tokenization, padding, and vocabulary indexing for NLP tasks.
+- Built and trained an LSTM-based sentiment classification model using PyTorch from scratch.
+- Explored dataset distribution, tackled class imbalance (if any), and evaluated performance using metrics like accuracy, precision, and recall.
+- Experimented with various hyperparameters including embedding size, LSTM hidden units, and learning rate to optimize model performance.
+- Visualized model performance (e.g., training curves or confusion matrix) and documented the entire ML pipeline from data loading to prediction.
+
+
