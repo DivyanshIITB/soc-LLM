@@ -45,4 +45,10 @@ To build a digit classification model using PyTorch that predicts handwritten di
 - Experimented with various hyperparameters including embedding size, LSTM hidden units, and learning rate to optimize model performance.
 - Visualized model performance (e.g., training curves or confusion matrix) and documented the entire ML pipeline from data loading to prediction.
 
+## Final Project: Chatbot over PDF using RAG
+- Understood how to load, parse, and chunk large PDF documents using tools like PyMuPDF and LangChain's text splitter.
+- Learned how to implement Retrieval-Augmented Generation (RAG) by combining a vector database (FAISS) with LLM inference for context-aware responses.
+- Integrated the LLaMA 2 (7B) model from Hugging Face and built a query-response pipeline using Transformers and Accelerate for efficient memory usage.
+- Explored vector embeddings with sentence-transformers to encode PDF chunks and retrieve top relevant context for a given user query.
+- Built an interactive Gradio UI for querying the chatbot and tested it using the UG Rulebook PDF.
 
